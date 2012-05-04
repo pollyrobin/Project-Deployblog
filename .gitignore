@@ -1,0 +1,3 @@
+api/*
+build/log/*
+source/application/configs/application.ini
