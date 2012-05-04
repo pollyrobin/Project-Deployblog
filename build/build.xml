@@ -15,7 +15,7 @@
     </target>
 	<!-- Call build.properties for ci server db migration -->
 	<target name="configure">    
-    <property file="~/jobdata/build.properties" />
+    <property file="/var/lib/jenkins/jobdata/build.properties" />
         <tstamp />
     </target>
 
