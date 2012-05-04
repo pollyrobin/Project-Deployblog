@@ -15,7 +15,7 @@
     </target>
 	<!-- Call build.properties for ci server db migration -->
 	<target name="configure">    
-    <property file="../build.properties" />
+    <property file="~/jobdata/build.properties" />
         <tstamp />
     </target>
 
