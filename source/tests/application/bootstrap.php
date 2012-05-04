@@ -15,5 +15,5 @@ set_include_path(implode(PATH_SEPARATOR, array(
     get_include_path(),
 )));
 
-//require_once 'models/DatabaseTestCase.php';
-//require_once 'controllers/ControllerTestCase.php';
+require_once 'models/DatabaseTestCase.php';
+require_once 'controllers/ControllerTestCase.php';
