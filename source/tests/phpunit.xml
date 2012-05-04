@@ -7,7 +7,6 @@
 			<directory suffix=".php">../application</directory>
 			<exclude>
                 <directory suffix=".phtml">../application</directory>
-                <directory>../application/models/DbTable/</directory>
 			</exclude>
 		</whitelist>
 	</filter>
